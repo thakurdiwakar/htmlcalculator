@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Refresh -->
+    <!-- <meta http-equiv="refresh" content="04"> -->
+    <!-- <meta http-equiv="refresh" content="04;url=https://thakurdiwakar.github.io/"> -->
+    <!-- Refresh --> 
+    <title></title>
+</head>
+<body>
+    <h1>Simple Calculator using only HTML</h1>
+
+    <h2>Addition</h2>
+    
+
+    <!-- Calculation with output tag -->
+    <form oninput="result.value=parseInt(a.value)+parseInt(b.value)">
+    <input type="number" id="a" value="20">
+    <input type="number" id="b" value="30">
+    = <output name="result" for="a b" ></output>
+    </form>
+    <!-- Calculation with output tag -->
+    <h2>Substraction</h2>
+    <form oninput="result.value=parseInt(a.value)-parseInt(b.value)">
+        <input type="number" id="a" value="20">
+        <input type="number" id="b" value="30">
+        = <output name="result" for="a b" ></output>
+        </form>
+
+        <h2>Multiplication</h2>
+        <form oninput="result.value=parseInt(a.value)*parseInt(b.value)">
+            <input type="number" id="a" value="">
+            <input type="number" id="b" value="">
+            = <output name="result" for="a b" ></output>
+            </form>
+
+            <h2>Division</h2>
+            <form oninput="result.value=parseInt(a.value)/parseInt(b.value)">
+                <input type="number" id="a" value="20">
+                <input type="number" id="b" value="30">
+                = <output name="result" for="a b" ></output>
+                </form>
+</body>
+</html>
